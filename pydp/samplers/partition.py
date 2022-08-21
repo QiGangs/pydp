@@ -246,7 +246,7 @@ class SequentiallyAllocatedMergeSplitSampler(PartitionSampler):
         u = uniform_rvs(0, 1)
 
         if log_ratio >= log(u):
-            print "accepted"
+            print("accepted")
 
             old_partition.cells = new_partition.cells
         else:
