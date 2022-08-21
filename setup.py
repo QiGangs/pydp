@@ -1,7 +1,7 @@
 from setuptools import find_packages, setup
 
 setup(
-    name='PyDP',
+    name='pydp',
     version='0.2.4',
     description='A Python library for implementing Dirichlet process mixture models.',
     author='Andrew Roth',
